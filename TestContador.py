@@ -13,7 +13,7 @@ class TestContador(unittest.TestCase):
         '''
         contador = Contador(10, 2, 2)
         self.assertEqual(contador.valorLimite, 10)
-        self.assertEqual(contador.valorLimite, 2)
+        self.assertEqual(contador.valorInicial, 2)
         self.assertEqual(contador.valorIncremento, 2)
     
     
