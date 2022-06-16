@@ -22,7 +22,7 @@ class TestContador(unittest.TestCase):
         '''
         contador = Contador(10)
         self.assertEqual(contador.valorInicial, 0)
-        self.assertEqual(valorIncremento, 1)
+        self.assertEqual(contador.valorIncremento, 1)
         
 
 if __name__ == '__main__':
