@@ -28,7 +28,7 @@ class TestContador(unittest.TestCase):
         '''
             Funcion que contiene el test para comprobar que el valor inicial, incremento y limite no cambian. 
         '''
-        Contador = Contador(10, 2, 2)
+        contador = Contador(10, 2, 2)
         contador.__valorInicial = 3
         contador.__valorIncremento = 3
         contador.__valorLimite = 3
