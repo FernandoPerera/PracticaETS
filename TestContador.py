@@ -12,7 +12,7 @@ class TestContador(unittest.TestCase):
             Funcion que contiene el test para comprobar que el constructor recoge correctamente los parámetros. 
         '''
         contador = Contador(10, 2, 2)
-        self.assertEqual(contador.getValorLimite())
+        self.assertEqual(contador.getValorLimite(), 10)
         self.assertEqual(contador.getValorInicial(), 2)
         self.assertEqual(contador.getValorIncremento(), 2)
     
