@@ -42,7 +42,7 @@ class TestContador(unittest.TestCase):
         '''
         contador = Contador(10, 2, 2)
         contador.incrementar()
-        self.assertEqual(contador, 4)
+        self.assertEqual(contador.contador, 4)
         contador.incrementar()
         self.assertEqual(contador.contador, 6)
         contador.incrementar()
