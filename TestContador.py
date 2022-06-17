@@ -52,7 +52,7 @@ class TestContador(unittest.TestCase):
         contador.incrementar()
         self.assertEqual(contador.contador, 2)
         
-    def test_resetValorContador():
+    def test_resetValorContador(self):
         '''
             Funcion que contiene el test para comprobar que el contador se resetea. 
         '''
